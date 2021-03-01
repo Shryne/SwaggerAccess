@@ -9,6 +9,7 @@ public class Person {
     @Schema(accessMode = Schema.AccessMode.READ_ONLY)
     private Age age;
 
+    //@Schema(accessMode = Schema.AccessMode.READ_ONLY)
     private Mother mother;
 
     public String getName() {

@@ -5,11 +5,11 @@ import io.swagger.v3.oas.annotations.media.Schema;
 public class Mother {
     private Age mothersAge;
 
-    public Age getBid() {
+    public Age getMothersAge() {
         return mothersAge;
     }
 
-    public void setBid(Age mothersAge) {
+    public void setMothersAge(final Age mothersAge) {
         this.mothersAge = mothersAge;
     }
 }
